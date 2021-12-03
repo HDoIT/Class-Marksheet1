@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Class Marksheet</h1>
+        <form action="" id="dataForm">
+            <div class="row">
+                <div class="col">
+                    <label>Full name:</label>
+                </div>
+                <div class="col">
+                    <div class="input-group mb-4">
+                        <input type="text" name="fullname" id="fullname" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label>Math score:</label>
+                </div>
+                <div class="col">
+                    <div class="input-group mb-4">
+                        <input type="text" name="mathscore" id="mathscore" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label>Physic score:</label>
+                </div>
+                <div class="col">
+                    <div class="input-group mb-4">
+                        <input type="text" name="physicscore" id="physicscore" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label>Chemistry score:</label>
+                </div>
+                <div class="col">
+                    <div class="input-group mb-4">
+                        <input type="text" name="Chemistry" id="chemistryscore" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <button type="button" class="btn btn-primary btn-lg" id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <table class="table table-striped table-hover table-dark" style="width: 95%;" id="dataTable">
+         <tbody>
+          <tr>
+            <th>Index <i class="fas fa-sort"></i></th>
+            <th>Full name <i class="fas fa-sort"></i>
+            <th>Math score <i class="fas fa-sort"></i></th>
+            <th>Physics score <i class="fas fa-sort"></i></th>
+            <th>Chemistry score <i class="fas fa-sort"></i></th>
+            <th>Average score <i class="fas fa-sort"></i></th>
+          </tr>
+        </tbody>
+    </table>
+    <div class="btn__bottom">
+        <button type="button" class="btn btn-success btn-sm" id="showAVG">Show Avg score</button>
+        <button type="button" class="btn btn-success btn-sm" id="detemineGood">Determine good student</button>
+        <button type="button" class="btn btn-success btn-sm" id="clear">Clear</button>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</script>
+</html>

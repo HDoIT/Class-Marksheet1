@@ -1,0 +1,40 @@
+* {
+    margin: 0 auto;
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.container h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.container label {
+    margin-left: 50px;
+}
+
+.container .button button {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.btn__bottom {
+    text-align: center;
+}
+
+.btn__bottom button {
+    width: 20%;
+}
